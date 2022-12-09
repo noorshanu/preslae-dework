@@ -150,11 +150,22 @@
 }
 .list-box{
     padding-top: 14px;
+    padding-left: 10%;
+}
+.list-box h6{
+    font-weight: 400;
+font-size: 11px;
+line-height: 110.9%;
+/* identical to box height, or 18px */
+padding-left: 5%;
+text-transform: capitalize;
+
+color: #FFFFFF;
 }
 .p-light{
     font-style: italic;
 font-weight: 800;
-font-size: 20px;
+font-size: 16px;
 line-height: 110.9%;
 /* or 22px */
 
@@ -165,4 +176,9 @@ background: linear-gradient(94.05deg, #14FF00 4.57%, #00A652 100%);
 -webkit-text-fill-color: transparent;
 background-clip: text;
 text-fill-color: transparent;
+}
+.jsa{
+    justify-content: space-around;
+    padding-top: 20px;
+    padding-bottom: 7px;
 }

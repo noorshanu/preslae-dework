@@ -50,16 +50,17 @@ function Home() {
                 <div className="list-box">
                   <p>Investors in this round will get :</p>
                   <p className="p-light"><BsCheck2All/> Airdrop</p>
-                  <span>  VRParadise NFT - Legendary edition</span>
+                  <h6>  VRParadise NFT - Legendary edition</h6>
                   <p className="p-light"> <BsCheck2All/>AIRDROP</p>
-                  <span>iStripper Trading Card - Legendary edition</span>
+                  <h6>iStripper Trading Card - Legendary edition</h6>
                   <p className="p-light"><BsCheck2All/>BOOSTED APRs</p>
-                  <span>on stacking pools</span>
+                  <h6>on stacking pools</h6>
                   <p className="p-light"> <BsCheck2All/>EARLY ACCESS</p>
-                  <span>to the 1st NFT drops</span>
+                  <h6>to the 1st NFT drops</h6>
                 </div>
-                <div className="text-center align-items-center ">
+                <div className="text-center align-items-center d-flex jsa ">
                   <a href="/" className="p1-btn">Buy Now!</a>
+                  <a href="/" className="p1-btn">Claim</a>
                 </div>
               </div>
             </div>
@@ -92,9 +93,9 @@ function Home() {
                 <div className="list-box">
                   <p>Investors in this round will get :</p>
                   <p className="p-light"><BsCheck2All/>Airdrop</p>
-                  <span>VRParadise NFT - Epic edition</span>
+                  <h6>VRParadise NFT - Epic edition</h6>
                   <p className="p-light"><BsCheck2All/>AIRDROP</p>
-                  <span>iStripper Trading Card - Epic edition</span>
+                  <h6>iStripper Trading Card - Epic edition</h6>
                 </div>
 
                 <div className="text-center ">
