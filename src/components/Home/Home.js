@@ -23,7 +23,10 @@ function Home() {
         </div>
 
         <div className="row justify-content-center align-items-center presale-section"  >
-          <div className="col-md-6">
+          <div className="col-md-1">
+            
+          </div>
+          <div className="col-md-5">
             <div className="pre-box-1">
             <div className="head-bar">
               <div className="fill-bar">
@@ -65,7 +68,7 @@ function Home() {
               </div>
             </div>
           </div>
-          <div className="col-md-6">
+          <div className="col-md-5">
 
           <div className="pre-box-1">
           <div className="head-bar">
@@ -98,12 +101,15 @@ function Home() {
                   <h6>iStripper Trading Card - Epic edition</h6>
                 </div>
 
-                <div className="text-center ">
+                <div className="text-center jsa2">
                   <a href="/" className="r2-btn">Coming soon..</a>
                 </div>
                 <span>0 Days, 3 Hours, 43 Minutes, 4 Seconds</span>
               </div>
             </div>
+          </div>
+          <div className="col-md-1">
+
           </div>
         </div>
       </div>
