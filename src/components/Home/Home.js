@@ -25,8 +25,15 @@ function Home() {
         <div className="row justify-content-center align-items-center presale-section"  >
           <div className="col-md-6">
             <div className="pre-box-1">
+            <div className="head-bar">
+              <div className="fill-bar">
+
+              </div>
+              <img src="https://ik.imagekit.io/cforcrypto/fire.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1670610000640" alt=""/>
+              <img src="https://ik.imagekit.io/cforcrypto/Group_64.png?ik-sdk-version=javascript-1.4.3&updatedAt=1670610001237" alt=""/>
+            </div>
               <div className="pre-box-2">
-                <div className="head-bar">bar</div>
+                
                 <div className="head-title text-center">
                   <h3>Round-1</h3>
 
@@ -60,8 +67,15 @@ function Home() {
           <div className="col-md-6">
 
           <div className="pre-box-1">
+          <div className="head-bar">
+              <div className="fill-bar">
+
+              </div>
+              <img src="https://ik.imagekit.io/cforcrypto/fire.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1670610000640" alt=""/>
+              <img src="https://ik.imagekit.io/cforcrypto/Group_64.png?ik-sdk-version=javascript-1.4.3&updatedAt=1670610001237" alt=""/>
+            </div>
               <div className="pre-box-2">
-                <div className="head-bar">bar</div>
+                
                 <div className="head-title text-center">
                   <h3>Round-2</h3>
 
