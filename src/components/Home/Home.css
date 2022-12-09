@@ -150,13 +150,25 @@
   height: 2rem;
   position: absolute;
   margin-top: -22px;
-  left: 20%;
+  left: 27%;
 }
 .bullet-1 {
   position: absolute;
   margin-top: -19px;
-  left: 21.7%;
+  left: 28.7%;
   height: 1.7rem;
+}
+.fire2{
+    height: 2rem;
+    position: absolute;
+    margin-top: -11px;
+    right: 47%;
+}
+.blt-2{
+    position: absolute;
+    margin-top: -9px;
+    right: 45%;
+    height: 1.7rem;
 }
 .head-title h3 {
   font-style: normal;
@@ -205,4 +217,32 @@ text-fill-color: transparent;
 .jsa2{
     padding-top: 10%;
     padding-bottom: 6%;
+}
+.day{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 110.9%;
+    text-align: center;
+    text-transform: capitalize;
+    color: #949494;
+    padding-bottom: 1px;
+}
+.cta{
+    padding-top: 4%;
+    padding-bottom: 2%;
+}
+
+.cta-box{
+    background: linear-gradient(#000, #000) padding-box, linear-gradient(270deg, #00a652, #000, #00a652);
+    border: 3px solid transparent;
+    border-image-source: none;
+    border-image-source: linear-gradient( 89.18deg, #2bff47 0.71%, rgba(241, 255, 5, 0) 35.23%, rgba(241, 255, 5, 0) 64.47%, #10ff50 99.29% );
+    border-radius: 7px;
+    padding: 0px 22px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+    gap: 23px;
 }

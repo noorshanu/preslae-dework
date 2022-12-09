@@ -72,11 +72,11 @@ function Home() {
 
           <div className="pre-box-1">
           <div className="head-bar">
-              <div className="fill-bar">
+              {/* <div className="fill-bar">
 
-              </div>
-              <img src="https://ik.imagekit.io/cforcrypto/fire.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1670610000640" alt=""/>
-              <img src="https://ik.imagekit.io/cforcrypto/Group_64.png?ik-sdk-version=javascript-1.4.3&updatedAt=1670610001237" alt=""/>
+              </div> */}
+              <img src="https://ik.imagekit.io/cforcrypto/fire.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1670610000640" alt="" className="fire2"/>
+              <img src="https://ik.imagekit.io/cforcrypto/Group_64.png?ik-sdk-version=javascript-1.4.3&updatedAt=1670610001237" alt="" className="blt-2"/>
             </div>
               <div className="pre-box-2">
                 
@@ -99,12 +99,14 @@ function Home() {
                   <h6>VRParadise NFT - Epic edition</h6>
                   <p className="p-light"><BsCheck2All/>AIRDROP</p>
                   <h6>iStripper Trading Card - Epic edition</h6>
+                  <p className="p-light"><BsCheck2All/>AIRDROP</p>
+                  <h6>iStripper Trading Card - Epic edition</h6>
                 </div>
 
                 <div className="text-center jsa2">
                   <a href="/" className="r2-btn">Coming soon..</a>
                 </div>
-                <span>0 Days, 3 Hours, 43 Minutes, 4 Seconds</span>
+                <p className="day">0 Days, 3 Hours, 43 Minutes, 4 Seconds</p>
               </div>
             </div>
           </div>
