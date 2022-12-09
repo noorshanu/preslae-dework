@@ -102,3 +102,7 @@ color: #000;
 font-size: 18px;
 font-weight: 700;
 }
+.r2-btn{
+    filter: drop-shadow(0px 0px 53px rgba(241, 255, 5, 0.57));
+border-radius: 5px;
+}

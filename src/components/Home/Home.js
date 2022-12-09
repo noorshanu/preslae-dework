@@ -63,7 +63,7 @@ function Home() {
               <div className="pre-box-2">
                 <div className="head-bar">bar</div>
                 <div className="head-title text-center">
-                  <h3>Round-1</h3>
+                  <h3>Round-2</h3>
 
                   <span className="span-btn">$250 min / $20,000 max</span>
 
@@ -71,13 +71,22 @@ function Home() {
                 </div>
                 <div className="price-box text-center">
                   <h1>
-                    $ 0.008 <span className="sp-white">/ Dolz</span>
+                  $ 0.012 <span className="sp-white">/ Dolz</span>
                   </h1>
-                  <p>11/23/2022 to 12/7/2022</p>
+                  <p>12/7/2022 to 1/4/2023</p>
                 </div>
                 <div className="list-box">
                   <p>Investors in this round will get :</p>
+                  <p><BsCheck2All/>Airdrop</p>
+                  <span>VRParadise NFT - Epic edition</span>
+                  <p><BsCheck2All/>AIRDROP</p>
+                  <span>iStripper Trading Card - Epic edition</span>
                 </div>
+
+                <div className="text-center ">
+                  <a href="/" className="r2-btn">Coming soon..</a>
+                </div>
+                <span>0 Days, 3 Hours, 43 Minutes, 4 Seconds</span>
               </div>
             </div>
           </div>
