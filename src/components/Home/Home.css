@@ -151,3 +151,18 @@
 .list-box{
     padding-top: 14px;
 }
+.p-light{
+    font-style: italic;
+font-weight: 800;
+font-size: 20px;
+line-height: 110.9%;
+/* or 22px */
+
+text-transform: uppercase;
+
+background: linear-gradient(94.05deg, #14FF00 4.57%, #00A652 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+}

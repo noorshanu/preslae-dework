@@ -49,13 +49,13 @@ function Home() {
                 </div>
                 <div className="list-box">
                   <p>Investors in this round will get :</p>
-                  <p><BsCheck2All/> Airdrop</p>
-                  <span> <BsCheck2All/> VRParadise NFT - Legendary edition</span>
-                  <p>AIRDROP</p>
+                  <p className="p-light"><BsCheck2All/> Airdrop</p>
+                  <span>  VRParadise NFT - Legendary edition</span>
+                  <p className="p-light"> <BsCheck2All/>AIRDROP</p>
                   <span>iStripper Trading Card - Legendary edition</span>
-                  <p>BOOSTED APRs</p>
+                  <p className="p-light"><BsCheck2All/>BOOSTED APRs</p>
                   <span>on stacking pools</span>
-                  <p>EARLY ACCESS</p>
+                  <p className="p-light"> <BsCheck2All/>EARLY ACCESS</p>
                   <span>to the 1st NFT drops</span>
                 </div>
                 <div className="text-center align-items-center ">
@@ -91,9 +91,9 @@ function Home() {
                 </div>
                 <div className="list-box">
                   <p>Investors in this round will get :</p>
-                  <p><BsCheck2All/>Airdrop</p>
+                  <p className="p-light"><BsCheck2All/>Airdrop</p>
                   <span>VRParadise NFT - Epic edition</span>
-                  <p><BsCheck2All/>AIRDROP</p>
+                  <p className="p-light"><BsCheck2All/>AIRDROP</p>
                   <span>iStripper Trading Card - Epic edition</span>
                 </div>
 
