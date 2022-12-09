@@ -1,0 +1,100 @@
+.main-page{
+    padding-top: 10%;
+    padding-bottom: 5%
+}
+.over-box{
+    background: linear-gradient(#000,#000) padding-box,linear-gradient(270deg,#00a652,#000,#00a652);
+border: 3px solid transparent;
+  border-image-source: none;
+border-image-source: linear-gradient(89.18deg,#2bff47 .71%,rgba(241,255,5,0) 35.23%,rgba(241,255,5,0) 64.47%,#10ff50 99.29%);
+border-radius: 7px;
+padding: 20px 50px;
+}
+.over-sub-box h1{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 110.9%;
+    /* identical to box height, or 31px */
+    
+    text-transform: capitalize;
+    
+    color: #FFFFFF;
+}
+.presale-section{
+    margin: auto;
+    padding-top: 4%;
+    padding-bottom: 2%;
+}
+.over-sub-box p{
+    padding-bottom: 3%;
+}
+
+.pre-box-1{
+    background: linear-gradient(0deg,#10ff50,transparent);
+border-radius: 30px;
+width: 450px;
+    padding: 2%;
+}
+.pre-box-2
+{
+    background: linear-gradient(180deg, #242424 0%, #000000 100%);
+border-radius: 0px 0px 20px 20px;
+padding: 4%;
+}
+.span-btn{
+    background: linear-gradient(91.02deg, #10FF50 0%, #59FFAB 100%);
+box-shadow: 0px 6px 15px rgba(43, 255, 71, 0.3);
+border-radius: 5px;
+padding: 1.2%;
+color: #000;
+font-weight: 700;
+font-size: 18px;
+line-height: 110.9%;
+/* identical to box height, or 20px */
+
+text-align: center;
+text-transform: capitalize;
+}
+.price-box h1{
+    background: linear-gradient(94.05deg, #14FF00 4.57%, #00A652 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+}
+.sp-white{
+    color: #fff;
+}
+.price-box p{
+    font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 110.9%;
+/* identical to box height, or 20px */
+
+text-align: center;
+text-transform: capitalize;
+
+color: #949494;
+
+}
+.head-title p{
+    padding-top: 3%;
+    font-style: italic;
+font-weight: 400;
+font-size: 15px;
+line-height: 110.9%;
+/* identical to box height, or 17px */
+
+text-align: center;
+text-decoration-line: underline;
+text-transform: capitalize;
+
+color: #949494;
+}
+.p1-btn{
+    background: linear-gradient(91.02deg, #10FF50 0%, #59FFAB 100%);
+box-shadow: 0px 0px 53px rgba(0, 255, 126, 0.42);
+border-radius: 5px;
+}
