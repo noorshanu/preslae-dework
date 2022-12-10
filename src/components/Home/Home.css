@@ -246,3 +246,9 @@ text-fill-color: transparent;
     justify-content: center;
     gap: 23px;
 }
+@media (max-width:768px) {
+ .cta-box{
+    grid-template-columns: 1fr;
+ }
+    
+}

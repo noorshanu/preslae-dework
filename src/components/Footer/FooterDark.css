@@ -53,6 +53,31 @@
 .footDark-1{
   background-color: #000;
 }
+.hero-btn-1 {
+    background: linear-gradient(93.52deg,#00a652 .78%,#006a34 102.15%,#58ffaa 102.16%);
+    border: 0.5px solid #fff;
+    border-radius: 33.5px 0;
+    box-shadow: 0 7px 16px rgb(0 0 0 / 40%);
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    margin-right: 5%;
+    padding: 1% 7%;
+    -webkit-transform: matrix(-1,0,0,1,0,0);
+    transform: matrix(-1,0,0,1,0,0);
+}
+.hero-btn-2 {
+    border: 0.5px solid #006a34;
+    border-radius: 33.5px 0;
+    color: #00a652;
+    -webkit-filter: drop-shadow(0 7px 16px rgba(0,0,0,.4));
+    filter: drop-shadow(0 7px 16px rgba(0,0,0,.4));
+    font-size: 18px;
+    font-weight: 600;
+    padding: 1% 7%;
+    -webkit-transform: matrix(1,0,0,-1,0,0);
+    transform: matrix(1,0,0,-1,0,0);
+}
 @media (max-width:768px) {
  
     .footerD-logo img{
