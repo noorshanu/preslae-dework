@@ -243,12 +243,27 @@ text-fill-color: transparent;
     border-image-source: none;
     border-image-source: linear-gradient( 89.18deg, #2bff47 0.71%, rgba(241, 255, 5, 0) 35.23%, rgba(241, 255, 5, 0) 64.47%, #10ff50 99.29% );
     border-radius: 7px;
-    padding: 0px 22px;
+    padding: 18px 22px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
     justify-content: center;
     gap: 23px;
+}
+.cta-p{
+  font-size: 14px;
+  font-weight: 500;
+}
+.cta-details{
+  padding-top: 1%;
+  padding-bottom: 2%;
+}
+.cta-details h2{
+  font-size: 24px;
+  font-weight: 600;
+}
+.head-cta{
+  padding-bottom: 4%;
 }
 @media (max-width:768px) {
  .cta-box{
