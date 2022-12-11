@@ -264,6 +264,7 @@ text-fill-color: transparent;
 }
 .head-cta{
   padding-bottom: 4%;
+  text-transform: capitalize;
 }
 @media (max-width:768px) {
  .cta-box{
