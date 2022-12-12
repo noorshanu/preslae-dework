@@ -12,8 +12,8 @@ function Cta() {
           <div className="col-md-5">
             <div className=" cta-new-box">
               <div className="cta-details">
-                <p className="p-light">Step-1</p>
-                <h2>Create MetaMask wallet</h2>
+                <p className="p-light text-center">Step-1</p>
+                <h2 className="text-center">Create MetaMask wallet</h2>
                 <p className="cta-p">
                   Create a MetaMask Wallet using either a desktop computer or an
                   iOS/Android mobile device. That will allow you to buy, sell,
@@ -35,8 +35,8 @@ function Cta() {
           <div className="col-md-5">
             <div className=" cta-new-box">
               <div className="cta-details">
-                <p className="p-light">Step-2</p>
-                <h2>Send ETH to your wallet</h2>
+                <p className="p-light text-center">Step-2</p>
+                <h2 className="text-center">Send ETH to your wallet</h2>
                 <p className="cta-p">
                   You can buy Ethereum (ETH) directly on MetaMask or transfer it
                   to your MetaMask Wallet from exchanges like Coinbase, Binance,
@@ -60,8 +60,8 @@ function Cta() {
             <div className="col-md-5">
               <div className=" cta-new-box">
                 <div className="cta-details">
-                  <p className="p-light">Step-3</p>
-                  <h2>Add $Dlance into Metamask Wallet</h2>
+                  <p className="p-light text-center">Step-3</p>
+                  <h2 className="text-center">Add $Dlance into Metamask Wallet</h2>
                   <p className="cta-p">
                     Access your $Dlance token in your metamask click on the
                     custom token and paste the contract address and you will get
@@ -75,7 +75,7 @@ function Cta() {
             <div className=" cta-new-box">
               <div className="cta-details">
                 <p className="p-light text-center">Step-4</p>
-                <h2>Swap ETH for $Dlance</h2>
+                <h2 className="text-center">Swap ETH for $Dlance</h2>
                 <p className="cta-p">
                   You can start swapping as soon as you have ETH available!{" "}
                 </p>

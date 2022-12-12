@@ -247,15 +247,18 @@ text-fill-color: transparent;
 }
 .cta-p{
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 400;
 }
 .cta-details{
   padding-top: 1%;
   padding-bottom: 2%;
 }
 .cta-details h2{
-  font-size: 24px;
+  font-size: 20px;
+  padding-bottom: 1%;
   font-weight: 600;
+  padding-top: 1%;
+  text-transform: capitalize;
 }
 .head-cta{
   padding-bottom: 4%;
@@ -268,10 +271,12 @@ text-fill-color: transparent;
   background: linear-gradient(180deg,#000,#1c1c1c);
     border: 3px solid #00a652;
     border-radius: 25px;
-    height: 220px;
+    height: 274px;
     padding-bottom: 2%;
     padding-top: 3%;
     width: 440px;
+    padding-left: 4%;
+    padding-right: 3%;
 }
 @media (max-width:768px) {
  .cta-box{
