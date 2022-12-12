@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./Home.css";
-import {BsCheck2All} from 'react-icons/bs'
+// import {BsCheck2All} from 'react-icons/bs'
 import Cta from './Cta'
 
 function Home() {
@@ -52,17 +52,17 @@ function Home() {
                   <p>11/23/2022 to 12/7/2022</p>
                   <p>Raise xxxx out of $540,000 / Sold out of 30,000,000</p>
                 </div>
-                <div className="list-box">
+                {/* <div className="list-box">
                   <p>Investors in this round will get :</p>
                   <p className="p-light"><BsCheck2All className="check"/> Token Allocated</p>
                   <h6>  30,000,000</h6>
-                  {/* <p className="p-light"> <BsCheck2All className="check"/>Token will be available on vesting period and will be available once sale end</p>
+                  <p className="p-light"> <BsCheck2All className="check"/>Token will be available on vesting period and will be available once sale end</p>
                   <h6>Vesting for 2 months</h6>
                   <p className="p-light" ><BsCheck2All  className="check" />Released  25% every 15days</p>
                   <h6>on stacking pools</h6>
                   <p className="p-light"> <BsCheck2All  className="check"/>EARLY ACCESS</p>
-                  <h6>to the 1st NFT drops</h6> */}
-                </div>
+                  <h6>to the 1st NFT drops</h6>
+                </div> */}
                 <div className="text-center align-items-center d-flex jsa ">
                   <a href="/" className="p1-btn">Buy Now!</a>
                   <div className={popUp?"popup":'popup-show'}>
@@ -106,15 +106,15 @@ function Home() {
                   </h1>
                   <p>12/7/2022 to 1/4/2023</p>
                 </div>
-                <div className="list-box">
+                {/* <div className="list-box">
                   <p>Investors in this round will get :</p>
                   <p className="p-light"><BsCheck2All  className="check"/>Token Allocated</p>
                   <h6>330,000,000</h6>
-                  {/* <p className="p-light"><BsCheck2All  className="check"/>Token will be available once sale ends</p>
+                  <p className="p-light"><BsCheck2All  className="check"/>Token will be available once sale ends</p>
                   <h6>iStripper Trading Card - Epic edition</h6>
                   <p className="p-light"><BsCheck2All  className="check"/>AIRDROP</p>
-                  <h6>iStripper Trading Card - Epic edition</h6> */}
-                </div>
+                  <h6>iStripper Trading Card - Epic edition</h6>
+                </div> */}
 
                 <div className="text-center jsa2">
                   <a href="/" className="r2-btn">Coming soon..</a>
