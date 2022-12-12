@@ -7,8 +7,9 @@ function Cta() {
         <div className="text-center">
           <h2 className=" head-cta">How do you buy</h2>
         </div>
-        <div className="cta-box">
-          <div className="">
+        <div className="row justify-content-center align-items-center">
+          
+          <div className=" cta-new-box">
             <div className="cta-details">
             <p className="p-light">Step-1</p>
             <h2>Create MetaMask wallet</h2>
@@ -26,7 +27,11 @@ function Cta() {
               and connecting through the in built browser (just copy presale
               link into the Trust Wallet Browser).
             </p>
+        </div>
+      
           </div>
+          <div>
+          <div className=" cta-new-box">
           <div className="cta-details">
             <p className="p-light">Step-2</p>
             <h2>Send ETH to your wallet</h2>
@@ -41,13 +46,9 @@ function Cta() {
             </p>
           </div>
           </div>
-          <div>
-            <img
-              src="https://ik.imagekit.io/cforcrypto/image_10.png?ik-sdk-version=javascript-1.4.3&updatedAt=1670618179808"
-              alt=""
-            />
           </div>
           <div>
+          <div className=" cta-new-box">
             <div className="cta-details">
               <p className="p-light">Step-3</p>
               <h2>Add $Dlance into Metamask Wallet</h2>
@@ -57,7 +58,12 @@ function Cta() {
                 your Metamask wallet.
               </p>
             </div>
-            <div className="cta-details">
+      </div>
+           
+          </div>
+          <div>
+          <div className=" cta-new-box">
+          <div className="cta-details">
               <p className="p-light">Step-4</p>
               <h2>Swap ETH for $Dlance</h2>
               <p  className="cta-p">You can start swapping as soon as you have ETH available! </p>
@@ -67,11 +73,8 @@ function Cta() {
                 the transaction and will also show you the cost of gas fee .{" "}
               </p>
             </div>
-            <div className="cta-details">
-          <h2 className="p-light">How to Claim </h2>
-          <p className="cta-p">Once the presale has ended, you’ll be able to head over to the claim button to claim your purchased Dlance token . </p>
-        </div>
-           
+            </div>
+
           </div>
         
         </div>
