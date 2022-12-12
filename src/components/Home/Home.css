@@ -261,14 +261,17 @@ text-fill-color: transparent;
   padding-bottom: 4%;
   text-transform: capitalize;
 }
+.second{
+  margin-top: 4%;
+}
 .cta-new-box{
-  background: linear-gradient(180deg,#fff,#dadada);
+  background: linear-gradient(180deg,#000,#1c1c1c);
     border: 3px solid #00a652;
     border-radius: 25px;
     height: 220px;
     padding-bottom: 2%;
     padding-top: 3%;
-    width: 288px;
+    width: 440px;
 }
 @media (max-width:768px) {
  .cta-box{
