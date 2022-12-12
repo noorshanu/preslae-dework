@@ -287,7 +287,7 @@ display: block;
   display: none;
 }
 .pop-box{
-  background: black;
+  background: #000000b3;
     padding: 2%;
     border: 1px solid #10fe50;
     border-radius: 5px;
@@ -296,6 +296,9 @@ display: block;
     left: 33%;
 }
 
+.pop-box p{
+  color: #10fe50;
+}
 @media (max-width:768px) {
  .cta-box{
     grid-template-columns: 1fr;
