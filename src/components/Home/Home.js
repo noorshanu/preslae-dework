@@ -1,9 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Home.css";
 import {BsCheck2All} from 'react-icons/bs'
 import Cta from './Cta'
 
 function Home() {
+  const [popUp,setPopup]=useState(false)
   return (
     <section className="main-page">
       <div className="container">
@@ -64,7 +65,18 @@ function Home() {
                 </div>
                 <div className="text-center align-items-center d-flex jsa ">
                   <a href="/" className="p1-btn">Buy Now!</a>
-                  <a href="/" className="p1-btn">Claim</a>
+                  <div className={popUp?"popup":'popup-show'}>
+                    <div className="pop-box">
+                    <p>schedule 1</p>
+                    <p>schedule 2</p>
+                    <p>schedule 3</p>
+                    <p>schedule 4</p>
+
+                    </div>
+                    
+
+                  </div>
+                  <a href="#pop" className="p1-btn" onClick={()=>setPopup(!popUp)}>Claim</a>
                 </div>
               </div>
             </div>

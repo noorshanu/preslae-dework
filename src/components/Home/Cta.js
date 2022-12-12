@@ -1,6 +1,7 @@
 import React from "react";
 
 function Cta() {
+
   return (
     <section className="cta">
       <div className="container">
