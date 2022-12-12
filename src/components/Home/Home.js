@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import "./Home.css";
 // import {BsCheck2All} from 'react-icons/bs'
 import Cta from './Cta'
+import Claim from "./Claim";
 
 function Home() {
   const [popUp,setPopup]=useState(false)
@@ -129,6 +130,7 @@ function Home() {
         </div>
       </div>
       <Cta/>
+      <Claim/>
     </section>
   );
 }
