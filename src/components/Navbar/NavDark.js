@@ -2,15 +2,18 @@ import React, { useState } from "react";
 import './navbar.css'
 import "./NavDark.css";
 import { GiHamburgerMenu } from "react-icons/gi";
-import {FaAngleDown} from 'react-icons/fa'
+
+
 
 function NavDark() {
   const [showMediaIcons, setShowMediaIcons] = useState(false);
-  const [isOpen, setIsOpen] =useState(false)
+  // const [isOpen, setIsOpen] =useState(false)
+
+
 
   return (
     <>
-      <nav className="container main-nav nav-Dark-1">
+        <nav className="container main-nav">
         <div className="logo">
           {" "}
           <div className="d-flex foot-logo">
@@ -26,52 +29,41 @@ function NavDark() {
         </div>
         <div
           className={
-            showMediaIcons ? "menu-link mobile-menu-link" : "menu-link menu-dark"
+            showMediaIcons ? "menu-link mobile-menu-link" : "menu-link"
           }
         >
           <ul>
           <li>
               <a href="/" >Home</a>
             </li>
-            <li>
-              <a href="#drop" className="" onClick={()=>setIsOpen(!isOpen)}>About Us <FaAngleDown/></a>
-            </li>
-            <div className={isOpen ?"dropdown-display" :"dropdown"}>
-            <li>
-              <a href="/">About </a>
-            </li>
-            <li>
-              <a href="/team">Team</a>
-            </li>
-           
-           <li>
-            <a href="https://docs.dework.live/" target='_blank' rel="noreferrer">Whitepaper</a>
-           </li>
-            </div>
+     
        
-            
+            {/* <li>
+              <a to="/rewards" >Rewards</a>
+            </li> */}
             <li>
               <a href="/nft-market" >NFT marketplace</a>
             </li>
             <li>
-              <a href="/job-portal">Find Job</a>
+              <a href="/job-portal" >Find Job</a>
             </li>
             <li>
-              <a href="/academy">Academy</a>
+              <a href="/academy" >Academy</a>
             </li>
             
             <li>
-              <a href="#team" className="explore-btn">Find Freelancer</a>
+              <a href="#team" className="explore-btn" >Sign Up</a>
             </li>
           </ul>
         </div>
         {/* hamburget menu start  */}
         <div className="hamburger-menu">
-          <a href="#home" className="dark-a" onClick={() => setShowMediaIcons(!showMediaIcons)}>
+          <a href="#home" onClick={() => setShowMediaIcons(!showMediaIcons)}>
             <GiHamburgerMenu />
           </a>
         </div>
       </nav>
+   
     </>
   );
 }
