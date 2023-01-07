@@ -1,11 +1,11 @@
-import React, { useState } from "react";
+import React from "react";
 import "./Home.css";
 // import {BsCheck2All} from 'react-icons/bs'
 import Cta from './Cta'
 import Claim from "./Claim";
 
 function Home() {
-  const [popUp,setPopup]=useState(false)
+
   return (
     <section className="main-page">
       <div className="container">
@@ -16,14 +16,15 @@ function Home() {
             
           </div>
           <div className="col-md-5">
-            <div className="pre-box-1">
-            <div className="head-bar">
+          <div className="head-bar">
               <div className="fill-bar">
 
               </div>
               <img src="https://ik.imagekit.io/cforcrypto/fire.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1670610000640" alt="" className="fire-1"/>
               <img src="https://ik.imagekit.io/cforcrypto/Group_64.png?ik-sdk-version=javascript-1.4.3&updatedAt=1670610001237" alt="" className="bullet-1"/>
             </div>
+            <div className="pre-box-1">
+      
               <div className="pre-box-2">
                 
                 <div className="head-title text-center">
@@ -42,19 +43,8 @@ function Home() {
                 </div>
           
                 <div className="text-center align-items-center d-flex jsa ">
-                  <a href="/" className="p1-btn">Buy Now!</a>
-                  <div className={popUp?"popup":'popup-show'}>
-                    <div className="pop-box">
-                    <p>schedule 1</p>
-                    <p>schedule 2</p>
-                    <p>schedule 3</p>
-                    <p>schedule 4</p>
-
-                    </div>
-                    
-
-                  </div>
-                  <a href="#pop" className="p1-btn" onClick={()=>setPopup(!popUp)}>Claim</a>
+                  <a href="/" className="p1-btn">Connect Wallet!</a>
+             
                 </div>
               </div>
             </div>
