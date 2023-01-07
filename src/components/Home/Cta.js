@@ -9,6 +9,8 @@ function Cta() {
           <h2 className=" head-cta">How do you Buy <span className='green'>$Dlance Token</span>  in the 
           <span className="green"> Private Sale</span>  & 
          <span className="green">PreSale</span> ?</h2>
+
+         <img src="https://ik.imagekit.io/cforcrypto/Dework/icons/Group_427325103.png" alt=""/>
         </div>
         <div className="row justify-content-center align-items-center">
           <div className="col-md-1"></div>
