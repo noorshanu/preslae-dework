@@ -1,12 +1,9 @@
-import React from "react";
-import "./Home.css";
+import React from 'react'
+
 // import {BsCheck2All} from 'react-icons/bs'
-import Cta from './Cta'
+import Cta from '../Home/Cta'
 import { NavLink } from "react-router-dom";
-
-
-function Home() {
-
+function PrivateSale() {
   return (
     <>
     <section className="main-page">
@@ -43,9 +40,13 @@ function Home() {
                   <p>24 HOURS, 38 MINUTES, 51 SECONDS Remaining</p>
                   <p>Raise $230,000 out of $540,000 / 15,000,00 Sold out of 30,000,000</p>
                 </div>
+                <div>
+                  <h3>You already bought:</h3>
+                  <p>0$dlance</p>
+                </div>
           
                 <div className="text-center align-items-center d-flex jsa ">
-                  <NavLink to="/private-sale" className="p1-btn" >Connect Wallet</NavLink>
+                  <NavLink to="/private-sale" className="p1-btn" >Buy Now</NavLink>
              
                 </div>
               </div>
@@ -91,7 +92,8 @@ function Home() {
     </section>
       <Cta/>
     </>
-  );
+
+  )
 }
 
-export default Home;
+export default PrivateSale

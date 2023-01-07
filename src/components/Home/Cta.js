@@ -63,10 +63,10 @@ function Cta() {
           <div className="row justify-content-center align-items-center">
             <div className="col-md-1"></div>
             <div className="col-md-5">
-              <div className=" cta-new-box">
+              <div className=" cta-new-box-2">
                 <div className="cta-details">
-                  <p className="p-light text-center">Step-3</p>
-                  <h2 className="text-center">Add $Dlance into Metamask Wallet</h2>
+                  <p className="p-light ">Step-3</p>
+                  <h2 className="">Add $Dlance into Metamask Wallet</h2>
                   <p className="cta-p">
                     Access your $Dlance token in your metamask click on the
                     custom token and paste the contract address and you will get
@@ -77,10 +77,10 @@ function Cta() {
             </div>
           
           <div className="col-md-5">
-            <div className=" cta-new-box">
+            <div className=" cta-new-box-2">
               <div className="cta-details">
-                <p className="p-light text-center">Step-4</p>
-                <h2 className="text-center">Swap ETH for $Dlance</h2>
+                <p className="p-light ">Step-4</p>
+                <h2 className="">Swap ETH for $Dlance</h2>
                 <p className="cta-p">
                   You can start swapping as soon as you have ETH available!{" "}
                 </p>
@@ -96,6 +96,18 @@ function Cta() {
           <div className="col-md-1"></div>
           </div>
         </div>
+        <div className='low-cta'>
+        <div className=" cta-new-box-3">
+              <div className="cta-details">
+                <h2 className="">How to <span className="green">Claim</span> </h2>
+                
+                <p className="cta-p">
+                Once the presale has ended, you’ll be able to head over to the claim button to claim your purchased Dlance token .{" "}
+                </p>
+             
+              </div>
+            </div></div>
+       
       </div>
     </section>
   );

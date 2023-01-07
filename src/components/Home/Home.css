@@ -279,6 +279,34 @@ line-height: 40px;
   padding-left: 4%;
   padding-right: 4%;
 }
+.cta-new-box-2{
+  background: #242a38;
+  border-radius: 10px;
+  height: 275px;
+  padding-bottom: 2%;
+  padding-top: 3%;
+  width: auto;
+  padding-left: 4%;
+  padding-right: 4%;
+}
+
+.cta-new-box-3{
+  background: #242a38;
+  border-radius: 10px;
+  height: 160px;
+  padding-bottom: 2%;
+  padding-top: 0.5%;
+  width: auto;
+  padding-left: 4%;
+  padding-right: 4%;
+
+}
+.low-cta{
+  margin-top: 20px;
+  margin-left: auto;
+  max-width: 1077px;
+  margin-right: auto;
+}
 .pop-up {
   display: block;
 }
