@@ -10,6 +10,7 @@ li {
 
 .logo img{
     height: 40px;
+    margin-bottom: 18px;
 }
 a:hover {
   color: #00E86D;
@@ -258,11 +259,6 @@ color:  #ffffff;
     grid-template-columns: unset;
     justify-content: space-between;
   }
-
- 
-
-  
-
 
  .hamburger-menu {
     display: block;
