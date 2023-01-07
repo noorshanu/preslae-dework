@@ -29,7 +29,7 @@ function Home() {
               <div className="pre-box-2">
                 
                 <div className="head-title text-center">
-                  <h3>Round-1</h3>
+                  <h3>Private Sale</h3>
 
                   <span className="span-btn">$250 min / $20,000 max</span>
 
@@ -61,7 +61,7 @@ function Home() {
               <div className="pre-box-2">
                 
                 <div className="head-title text-center">
-                  <h3>Round-2</h3>
+                  <h3>PreSale</h3>
 
                   <span className="span-btn">$250 min / $20,000 max</span>
 
