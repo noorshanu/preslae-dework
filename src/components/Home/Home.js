@@ -7,6 +7,7 @@ import Cta from './Cta'
 function Home() {
 
   return (
+    <>
     <section className="main-page">
       <div className="container">
   
@@ -86,8 +87,9 @@ function Home() {
           </div>
         </div>
       </div>
-      <Cta/>
     </section>
+      <Cta/>
+    </>
   );
 }
 

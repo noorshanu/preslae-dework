@@ -1,6 +1,9 @@
 .main-page {
   padding-top: 5%;
   padding-bottom: 3%;
+  background-image: url('https://ik.imagekit.io/cforcrypto/Dework/Background-image_1.png?ik-sdk-version=javascript-1.4.3&updatedAt=1673082414561');
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .over-box {
   background: linear-gradient(#000, #000) padding-box,
@@ -53,15 +56,15 @@
 
 .pre-box-1 {
   width: 475px;
-  background: #050828;
-  opacity: 0.8;
+  background: #050828b8;
+ 
   border: 1px solid #B2B2B2;
   border-radius: 6.6375px;
 
 }
 .pre-box-2 {
-  background: #050828;
-  opacity: 0.8;
+  background: #050828b8;
+ 
   border: 1px solid #B2B2B2;
   border-radius: 6.6375px;
 }
