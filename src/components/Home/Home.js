@@ -39,25 +39,25 @@ function Home() {
                   <h1>
                     $ 0.018 <span className="sp-white">/$DLANCE</span>
                   </h1>
-                  <p>11/23/2022 to 12/7/2022</p>
-                  <p>Raise xxxx out of $540,000 / Sold out of 30,000,000</p>
+                  <p>24 HOURS, 38 MINUTES, 51 SECONDS Remaining</p>
+                  <p>Raise $230,000 out of $540,000 / 15,000,00 Sold out of 30,000,000</p>
                 </div>
           
                 <div className="text-center align-items-center d-flex jsa ">
-                  <a href="/" className="p1-btn">Connect Wallet!</a>
+                  <a href="/" className="p1-btn">Connect Wallet</a>
              
                 </div>
               </div>
             </div>
           </div>
           <div className="col-md-5">
-
-          <div className="pre-box-1">
           <div className="head-bar">
             
-              <img src="https://ik.imagekit.io/cforcrypto/fire.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1670610000640" alt="" className="fire2"/>
-              <img src="https://ik.imagekit.io/cforcrypto/Group_64.png?ik-sdk-version=javascript-1.4.3&updatedAt=1670610001237" alt="" className="blt-2"/>
-            </div>
+            <img src="https://ik.imagekit.io/cforcrypto/fire.webp?ik-sdk-version=javascript-1.4.3&updatedAt=1670610000640" alt="" className="fire2"/>
+            <img src="https://ik.imagekit.io/cforcrypto/Group_64.png?ik-sdk-version=javascript-1.4.3&updatedAt=1670610001237" alt="" className="blt-2"/>
+          </div>
+          <div className="pre-box-1">
+         
               <div className="pre-box-2">
                 
                 <div className="head-title text-center">

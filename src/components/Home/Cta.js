@@ -18,7 +18,7 @@ function Cta() {
             <div className=" cta-new-box">
               <div className="cta-details">
                 <p className="p-light ">Step-1</p>
-                <h2 className="">Create MetaMask wallet</h2>
+                <h2 className="">Create <span className="green">MetaMask wallet</span> </h2>
                 <p className="cta-p">
                   Create a MetaMask Wallet using either a desktop computer or an
                   iOS/Android mobile device. That will allow you to buy, sell,
@@ -41,7 +41,7 @@ function Cta() {
             <div className=" cta-new-box">
               <div className="cta-details">
                 <p className="p-light ">Step-2</p>
-                <h2 className="">Send ETH to your wallet</h2>
+                <h2 className="">Send <span className="green">ETH</span>  to your <span className="green">Wallet</span> </h2>
                 <p className="cta-p">
                   You can buy Ethereum (ETH) directly on MetaMask or transfer it
                   to your MetaMask Wallet from exchanges like Coinbase, Binance,
