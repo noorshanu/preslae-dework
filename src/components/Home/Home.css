@@ -78,10 +78,7 @@
   text-transform: capitalize;
 }
 .price-box h1 {
-  background: linear-gradient(94.05deg, #14ff00 4.57%, #00a652 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+ color: #00E86D;
   font-weight: 800;
   font-size: 36px;
   line-height: 110.9%;
@@ -89,9 +86,7 @@
   text-transform: capitalize;
   padding-top: 8px;
 }
-.sp-white {
-  color: #fff;
-}
+
 .price-box p {
   font-style: normal;
   font-weight: 500;
@@ -214,7 +209,8 @@ background-clip: text;
 text-fill-color: transparent;
 }
 .check{
-  color: #00a652;
+  color:  #00E86D;
+  ;
   font-size: 24px;
 }
 .jsa{
@@ -265,22 +261,27 @@ text-fill-color: transparent;
   text-transform: capitalize;
 }
 .head-cta{
-  padding-bottom: 4%;
+  font-weight: 700;
+font-size: 30px;
+line-height: 40px;
   text-transform: capitalize;
+}
+.cta-head-1{
+  max-width: 655px;
+    margin: auto;
 }
 .second{
   margin-top: 4%;
 }
 .cta-new-box{
-  background: linear-gradient(180deg,#000,#1c1c1c);
-    border: 3px solid #00a652;
-    border-radius: 25px;
-    height: 274px;
+  background: #242A38;
+  border-radius: 10px;
+    height: 420px;
     padding-bottom: 2%;
     padding-top: 3%;
-    width: 440px;
+    width: auto;
     padding-left: 4%;
-    padding-right: 3%;
+    padding-right: 4%;
 }
 .pop-up{
 display: block;

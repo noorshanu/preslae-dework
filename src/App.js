@@ -1,16 +1,17 @@
-import FootDark from "./components/Footer/FootDark";
-import Home from "./components/Home/Home";
-import NavDark from "./components/Navbar/NavDark";
 import 'bootstrap/dist/css/bootstrap.min.css';
-
+import {BrowserRouter as Router,Routes, Route} from 'react-router-dom'
+import MainPage from "./Pages/MainPage";
 
 function App() {
   return (
     <>
-    <NavDark/>
-    <Home/>
-    
-    <FootDark/>
+   <Router>
+        <Routes>
+          <Route exact path="/" element={<MainPage/>}/>
+         
+        
+        </Routes>
+    </Router>
      
     </>
   );

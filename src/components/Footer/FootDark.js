@@ -8,26 +8,74 @@ import {
   FaDiscord,
   FaInstagram,
 } from "react-icons/fa";
+import { NavLink } from "react-router-dom";
 
-import "./FooterDark.css";
 import './footer.css'
 
 function FootDark() {
   return (
     <>
-      <footer className="footer footDark-1">
+       <footer className="footer">
         <div className="container border-foot-top">
           <div className="row justify-content-center align-items-center">
-            <div className="col-md-3 col-6">
-              <div className="footerD-logo foot-dark">
-                <a href='/'>
-                <img
-                  src="https://ik.imagekit.io/cforcrypto/Dework/find_jobs/logo-white.png?ik-sdk-version=javascript-1.4.3&updatedAt=1669995470971"
-                  alt="foot-logo"
-                />
-                </a>
-            
+            <div className="col-md-4 col-6">
+              <div className="footer-logo">
+                <NavLink to="/">
+                  <img
+                    src="https://ik.imagekit.io/cforcrypto/Dework/icons/logo-white_1.png?ik-sdk-version=javascript-1.4.3&updatedAt=1672518832954"
+                    alt="foot-logo"
+                  />
+                </NavLink>
               </div>
+             
+              <div className="foot-p">
+                <p>
+                  Deelance is a freelancing and Recruitment platform based on
+                  Web3 platform that is redefining how freelancers connect with
+                  potential employers and buyers.
+                </p>
+              </div>
+            </div>
+
+            <div className="col-md-2 col-6">
+            <div className="foot-link">
+                <NavLink to="/privacy-policy" target="_blank">
+                  <p>Privacy</p>
+                </NavLink>
+                <NavLink to="/risk" target="_blank">
+                  <p>Risk Warning</p>
+                </NavLink>
+                <a href="/">
+                  <p>Announcements</p>
+                </a>
+
+                <NavLink href="/privacy-policy" target="_blank">
+                  <p>Cookie Preferences</p>
+                </NavLink>
+              </div>
+            </div>
+
+            <div className="col-md-2 col-6">
+              <div className="foot-link2">
+                <a href="/">
+                  <p>About</p>
+                </a>
+                <a href="/">
+                  <p>Careers</p>
+                </a>
+
+                <a href="/">
+                  <p>Community</p>
+                </a>
+
+                <NavLink to="/terms" target="_blank">
+                  <p>Terms</p>
+                </NavLink>
+              </div>
+            </div>
+
+            <div className="col-md-4 col-6">
+        
               <p className="sc-1">Conect With The Community</p>
               <div className="foot-social">
                 <a
@@ -81,59 +129,12 @@ function FootDark() {
                 </a>
               </div>
             </div>
-
-            <div className="col-md-3 col-6">
-              <div className="foot-btn-grup">
-                <a href="/" className="hero-btn-1">
-                  Sign up
-                </a>
-                <a href="/" className="hero-btn-2">
-                  Find Job
-                </a>
-              </div>
-            </div>
-
-            <div className="col-md-3 col-6">
-              <div className="foot-link">
-                <a href="/">
-                  <p>About</p>
-                </a>
-                <a href="/">
-                  <p>Careers</p>
-                </a>
-
-                <a href="/">
-                  <p>Community</p>
-                </a>
-
-                <a href="/terms" target="_blank">
-                  <p>Terms</p>
-                </a>
-              </div>
-            </div>
-
-            <div className="col-md-3 col-6">
-              <div className="foot-link">
-              <a href="/privacy-policy" target="_blank">
-                  <p>Privacy</p>
-                </a>
-                <a href="/risk" target="_blank">
-                  <p>Risk Warning</p>
-                </a>
-                <a href="/">
-                  <p>Announcements</p>
-                </a>
-
-                <a href="/privacy-policy" target="_blank">
-                  <p>Cookie Preferences</p>
-                </a>
-              </div>
-            </div>
           </div>
-        </div>
-        <p className="foot-bottom-text dark-p">
+          <p className="foot-bottom-text">
           2022© Deelance Inc. | All Rights Reserved{" "}
         </p>
+        </div>
+      
       </footer>
     </>
   );
