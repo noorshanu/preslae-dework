@@ -42,8 +42,20 @@ function PrivateSale() {
                 </div>
                 <div>
                   <h3>You already bought:</h3>
-                  <p>0$dlance</p>
+                  <p>$dlance</p>
                 </div>
+                <form>
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="inputEmail4">Email</label>
+      <input type="email" class="form-control" id="inputEmail4" placeholder="Email"/>
+    </div>
+    <div class="form-group col-md-6">
+      <label for="inputPassword4">Password</label>
+      <input type="password" class="form-control" id="inputPassword4" placeholder="Password"/>
+    </div>
+  </div>
+  </form>
           
                 <div className="text-center align-items-center d-flex jsa ">
                   <NavLink to="/private-sale" className="p1-btn" >Buy Now</NavLink>
