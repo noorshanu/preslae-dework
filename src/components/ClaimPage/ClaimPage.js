@@ -1,5 +1,5 @@
 import React from 'react'
-
+import './Table.css'
 import { NavLink } from "react-router-dom";
 import ClaimCta from '../Home/ClaimCta';
 function ClaimPage() {
@@ -7,7 +7,7 @@ function ClaimPage() {
     <>
      <section className="main-page">
         <div className="container">
-          <div className="row justify-content-center align-items-center presale-section">
+          <div className="row justify-content-center  claim-section">
             <div className="col-md-1"></div>
             <div className="col-md-5">
               <div className="head-bar">
@@ -46,26 +46,44 @@ function ClaimPage() {
                     <h3>You already bought:</h3>
                     <p>$dlance</p>
                   </div>
-                  <form>
-                    <div class="form-row">
-                      <div class="form-group ">
-                        <label for="inputnumber">Select Currency:</label>
-                        <input
-                          type="number"
-                          class="form-control"
-                          placeholder="ETH"
-                        />
-                      </div>
-                      <div class="form-group ">
-                        <label for="inputnum">Enter $Dlance amount:</label>
-                        <input
-                          type="number"
-                          class="form-control"
-                          placeholder="1000"
-                        />
-                      </div>
-                    </div>
-                  </form>
+                  <div className=''>
+                  <table class="table">
+  <thead>
+    <tr>
+      <th scope="col"> </th>
+      <th scope="col">Percentage</th>
+      <th scope="col">Unlock Time</th>
+      <th scope="col"> </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr className='bg-blue'>
+      <th scope="row">1</th>
+      <td>Claim - 25%</td>
+      <td>February 1, 2023</td>
+      <td><a className='cl-btn' href="/claim">Claim</a></td>
+    </tr>
+    <tr className='bg-gray'>
+      <th scope="row">2</th>
+      <td>Claim - 25%</td>
+      <td>February 16, 2023</td>
+      <td><a className='cl-btn' href="/">Claim</a></td>
+    </tr>
+    <tr className='bg-blue'>
+      <th scope="row">3</th>
+      <td>Claim - 25%</td>
+      <td>March 3, 2023</td>
+      <td><a href="/" className='cl-btn'>Claim</a></td>
+    </tr>
+    <tr className='bg-gray'>
+      <th scope="row">4</th>
+      <td>Claim - 25%</td>
+      <td>March 18, 2023</td>
+      <td><a href="/" className='cl-btn'>Claim</a></td>
+    </tr>
+  </tbody>
+</table>
+                  </div>
 
                   <div className="text-center align-items-center d-flex jsa ">
                     <NavLink to="/private-sale" className="p1-btn">

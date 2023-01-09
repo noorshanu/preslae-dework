@@ -8,7 +8,7 @@ function PrivateSale() {
     <>
       <section className="main-page">
         <div className="container">
-          <div className="row justify-content-center align-items-center presale-section">
+          <div className="row justify-content-center  presale-section">
             <div className="col-md-1"></div>
             <div className="col-md-5">
               <div className="head-bar">

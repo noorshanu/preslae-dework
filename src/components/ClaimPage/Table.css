@@ -1,0 +1,28 @@
+.table{
+    color: #fff !important;
+}
+.bg-blue{
+    background: #111827;
+    border-style: none !important;
+    border: none;
+}
+
+.bg-gray{
+    background: #242A38;
+    border-style: none !important;
+    border: none;
+}
+
+.table>:not(caption)>*>*{
+    border: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.cl-btn{
+    background: #00E86D;
+border-radius: 3.31875px;
+width: 100%;
+padding: 8%
+}
