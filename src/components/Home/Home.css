@@ -65,6 +65,8 @@ padding-top: 4%;
 padding-bottom: 4%;
   border: 1px solid #b2b2b2;
   border-radius: 6.6375px;
+  padding-left: 6%;
+  padding-right: 6%;
 }
 .pre-box-2 {
 
@@ -113,13 +115,11 @@ padding-bottom: 4%;
   background: #00E86D;
   border-radius: 3.31875px;
   border: 0.5px solid #ffffff;
- 
-
   color: rgb(0, 0, 0) !important;
-  padding: 4px 18%;
-
+  padding: 5px;
+  width: 100%;
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 600;
 }
 .r2-btn {
   filter: drop-shadow(0px 0px 53px rgba(241, 255, 5, 0.57));

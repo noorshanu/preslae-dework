@@ -1,0 +1,27 @@
+.form-row{
+    display: grid;
+    grid-template-columns: repeat(2 ,auto);
+    gap: 20px;
+}
+.private-head h3{
+font-weight: 600;
+font-size: 18px;
+line-height: 28px;
+}
+
+.private-head p{
+font-weight: 600;
+font-size: 18px;
+line-height: 28px;
+color: #B2B2B2;
+}
+.form-control{
+background: #242A38;
+border-radius: 6px;
+border: none !important;
+}
+label{
+    font-weight: 600;
+font-size: 18px;
+line-height: 28px;
+}

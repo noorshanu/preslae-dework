@@ -1,12 +1,11 @@
-import React from "react";
-import "./Private.css";
-// import {BsCheck2All} from 'react-icons/bs'
-import Cta from "../Home/Cta";
+import React from 'react'
+
 import { NavLink } from "react-router-dom";
-function PrivateSale() {
+import ClaimCta from '../Home/ClaimCta';
+function ClaimPage() {
   return (
     <>
-      <section className="main-page">
+     <section className="main-page">
         <div className="container">
           <div className="row justify-content-center align-items-center presale-section">
             <div className="col-md-1"></div>
@@ -117,9 +116,11 @@ function PrivateSale() {
           </div>
         </div>
       </section>
-      <Cta />
+     <ClaimCta/>
     </>
-  );
+
+    
+  )
 }
 
-export default PrivateSale;
+export default ClaimPage
