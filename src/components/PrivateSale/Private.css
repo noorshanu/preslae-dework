@@ -25,3 +25,23 @@ label{
 font-size: 18px;
 line-height: 28px;
 }
+
+@media (max-width:768px) {
+    .private-head h3 {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 21px;
+      }
+      .private-head p {
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 14px;
+        color: #B2B2B2;
+      }
+      label {
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 28px;
+      }
+    
+}

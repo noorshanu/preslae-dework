@@ -327,11 +327,35 @@ line-height: 40px;
   color: #10fe50;
 }
 @media (max-width: 768px) {
+  .main-page{
+    height: 100%;
+  }
+  .head-cta {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+  }
+  .p-light {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 16px;
+  }
+  .cta-details h2 {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+  }
+  .cta-p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 27px;
+  }
   .cta-box {
     grid-template-columns: 1fr;
   }
   .pre-box-1 {
-    width: 383px;
+    width: auto;
+    margin-bottom: 20px;
   }
   .bullet-1 {
     left: 49.7%;
@@ -347,5 +371,28 @@ line-height: 40px;
     position: absolute;
     margin-top: -11px;
     left: 2%;
+  }
+
+  .cta-new-box {
+
+    height: auto;
+   
+    margin-bottom: 20px;
+  }
+
+  .cta-new-box-2 {
+    
+    height: auto;
+
+    margin-bottom: 20px;
+  }
+  .price-box h1 {
+    color: #00e86d;
+    font-weight: 800;
+    font-size: 25px;
+    line-height: 29px;
+    text-align: center;
+    text-transform: capitalize;
+    padding-top: 8px;
   }
 }
